@@ -5,7 +5,8 @@ import {Server} from "socket.io";
 
 import cors from "cors";
 import mongoose from "mongoose";
-import { connectToSocket } from "./src/controllers/socketManager.js";
+import { connectToSocket } from "./controllers/socketManager.js";
+
 import userRoutes from "./src/routes/usersroutes.js";
 
 
